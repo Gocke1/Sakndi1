@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sv">
-      <body>
+      <body className="shell">
         <Header />
         <main>{children}</main>
         <Footer />
